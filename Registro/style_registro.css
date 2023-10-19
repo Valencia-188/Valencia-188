@@ -1,0 +1,242 @@
+/* Estilos generales */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos del header */
+header {
+    background-color: #ffffff; /* Cambio de color a azul obscuro bonito */
+    color: #fff;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 135px; /* Ancho reducido del logo */
+    height: auto;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px 20px; /* Aumentamos el padding arriba y abajo, y en los lados */
+    font-size: 15px; /* Aumentamos el tamaño de la fuente */
+    border: none;
+    border-radius: 30px; /* Hacemos los bordes redondeados */
+    margin-right: 10px;
+    width: 350px; /* Ancho más grande */
+}
+
+.contact-btn {
+    background-color: #0aa9f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.seccion {
+    background-color: #ffff;
+    color: #0aa9f3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #0aa9f3;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #0aa9f3;
+}
+
+/* Estilos del main */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilos del formulario de contacto */
+form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #0aa9f3;
+    color: #fff;
+    border: none;
+    margin: 20px 10%;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0aa9f3;
+
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #1a5276;
+    color: #fff; /* Color de texto por defecto para el footer */
+    text-align: center;
+    padding: 10px;
+}
+.footer-text {
+    font-size: 18px;
+    color: #f4f0f0; /* Color específico para el texto en el footer */
+}
+.gallery {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 500px; /* Establecemos un ancho fijo para las imágenes */
+    height: auto;
+    object-fit: cover; /* Ajusta el tamaño de la imagen sin deformarla */
+    filter: blur(5px); /* Desenfoque para las imágenes de los lados */
+}
+
+.slider img.active {
+    filter: none; /* Elimina el desenfoque para la imagen activa en el centro */
+}
+.social-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0 5px;
+}
+
+.social-links img {
+    width: 30px; /* Establece el ancho de las imágenes (ajusta según tu preferencia) */
+    height: 30px; /* Establece el alto de las imágenes (ajusta según tu preferencia) */
+    object-fit: cover;
+}
+#biografia {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.biografia-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia-img {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.biografia-img img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.biografia-text {
+    flex: 2;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.biografia-text h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.biografia-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+.casillas{
+
+    width: 50%;
+    height: 50%;
+}
